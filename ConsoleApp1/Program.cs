@@ -10,6 +10,7 @@ namespace ConsoleApp1
             var runtimeVer = System.Runtime.InteropServices.RuntimeInformation.FrameworkDescription; 
             Console.WriteLine($"Net core version: {netCoreVer}");
             Console.WriteLine($"Runtime version: {runtimeVer}");
+            Console.WriteLine("Project name: Chmury Obliczeniowe Laboratorium 1");
         }
     }
 }
