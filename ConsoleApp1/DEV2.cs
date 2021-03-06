@@ -6,6 +6,6 @@ namespace ConsoleApp1
 {
     class DEV2
     {
-        public string Autor { get; } = "Jacek Suty/Mikołaj Dalecki";
+        public static string Autor { get; } = "Jacek Suty/Mikołaj Dalecki";
     }
 }
