@@ -6,7 +6,10 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var netCoreVer = System.Environment.Version; 
+            var runtimeVer = System.Runtime.InteropServices.RuntimeInformation.FrameworkDescription; 
+            Console.WriteLine($"Net core version: {netCoreVer}");
+            Console.WriteLine($"Runtime version: {runtimeVer}");
         }
     }
 }
